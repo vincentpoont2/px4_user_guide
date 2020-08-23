@@ -12,21 +12,16 @@ The guide explains the minimal additional setup required to get the vehicle read
 
 ## Purchase
 
-* [Holybro Website](https://shop.holybro.com/px4-vision_p1225.html?)
+- [Holybro Website](https://shop.holybro.com/px4-vision_p1225.html?)
 
-## Px4 Guide Content
+## Px4 Vision Guide Content
 - [Warnings & Notifications](#Warnings-and-Notifications)
-- [What's Inside](#What's-inside)
-- [What Else Do You Need?](#What Else Do You Need?)
+- [What's Inside?](#What's-inside?)
+- [What Else Do You Need?](#What-Else-Do-You-Need?)
 - [First-time Setup](#First-time-Setup)
 - [Fly the Drone with avoidance](#Fly-the-Drone-with-Avoidance)
 - [Development using the Kit](#Development-using-the-Kit)
-    - PX4 Avoidance Overview
-    - Installing the image on the Companion Computer {#install_image_mission_computer}
-    - Boot the Companion Computer {#boot_mission_computer}
-    - Login to the Companion Computer {#login_mission_computer}
-    - Developing/Extending PX4 Avoidance
-    - Developing PX4 Firmware
+- [Px4 Vision Carrier Board Pinouts](#Px4-Vision-Carrier-Board-Pinouts)
 - [Other Development Resources](#Other-Development-Resources)
 - [How to get Technical Support?](#How-to-get-Technical-Support?)
 
@@ -42,12 +37,12 @@ The guide explains the minimal additional setup required to get the vehicle read
 
    ![Warning - do not connect power port](../../assets/hardware/px4_vision_devkit/warning_power_port.png)
 
-## What's Inside
+## What's Inside?
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside_top.jpg)
 
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside.jpg)
 
-![Schematic Layered](../../assets/hardware/px4_vision_devkit/px4_vision_schematic_layered.png)
+![Schematic Layered](../../assets/hardware/px4_vision_devkit/Explode-view.png)
 
 The DevKit contains following components:
 - PX4 Vision drone kit with these internal parts:
@@ -316,15 +311,18 @@ You can also modify PX4 itself, and [install it as custom firmware](../config/fi
 > **Note** Modification of PX4 code is not *needed* to meet most computer vision use cases.
   To discuss the interfaces or how to integrate other features join the PX4 slack channel: #computer-vision.
 
+## Px4 Vision Carrier Board Pinouts
+
+The Carrier board pinouts can be download from [Holybro's website.](http://www.holybro.com/manual/PX4_Vision_carrier_board_pinouts_v1.1.pdf)
 
 ## Other Development Resources
 
-- [*UP Core* Wiki](https://wiki.up-community.org/Ubuntu) - companion computer technical information
+- [*UP Core* Wiki](https://wiki.up-community.org/Ubuntu) - *Up Core* companion computer technical information
 - [Occipital Developer Forum](https://structure.io/developers) - *Structure Core* camera information
 - [Pixhawk 4 Overview](../flight_controller/pixhawk4.md)
 - [PX4 Avoidance software/documentation](https://github.com/PX4/avoidance)
 - [Path Planning Interface](../computer_vision/path_planning_interface.md)
-
+- [Px4 Vision Carrier Board Pinouts](http://www.holybro.com/manual/PX4_Vision_carrier_board_pinouts_v1.1.pdf)
 
 ## How to get Technical Support?
 
