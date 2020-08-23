@@ -329,5 +329,6 @@ The Carrier board pinouts can be download from [Holybro's website.](http://www.h
 For hardware issues, please contact Holybro at: [productservice@holybro.com](mailto:productservice@holybro.com).
 
 For software issues, use the following [community support channels](README.md#support):
-- PX4 discuss: [Computer Vision](https://discuss.px4.io/c/Vision-based-navigation-and-obstacle-avoidance) category.
-- PX4 slack channel: #avoidance
+- [PX4 discuss: Computer Vision category.](https://discuss.px4.io/c/Vision-based-navigation-and-obstacle-avoidance)
+- [PX4 slack](https://slack.px4.io/) channel: #avoidance
+- [Holybro Px4 Vision Wikifactory](https://wikifactory.com/+holybro/px4-vision)
