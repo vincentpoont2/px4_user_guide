@@ -16,14 +16,14 @@ The guide explains the minimal additional setup required to get the vehicle read
 
 ## Px4 Vision Guide Content
 - [Warnings & Notifications](#Warnings-and-Notifications)
-- [What's Inside?](#What's-inside?)
-- [What Else Do You Need?](#What-Else-Do-You-Need?)
+- [What's Inside](#What's-inside)
+- [What Else Do You Need](#What-Else-Do-You-Need)
 - [First-time Setup](#First-time-Setup)
 - [Fly the Drone with avoidance](#Fly-the-Drone-with-Avoidance)
 - [Development using the Kit](#Development-using-the-Kit)
 - [Px4 Vision Carrier Board Pinouts](#Px4-Vision-Carrier-Board-Pinouts)
 - [Other Development Resources](#Other-Development-Resources)
-- [How to get Technical Support?](#How-to-get-Technical-Support?)
+- [How to get Technical Support](#How-to-get-Technical-Support)
 
 ## Warnings and Notifications
 
@@ -37,7 +37,7 @@ The guide explains the minimal additional setup required to get the vehicle read
 
    ![Warning - do not connect power port](../../assets/hardware/px4_vision_devkit/warning_power_port.png)
 
-## What's Inside?
+## What's Inside
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside_top.jpg)
 
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside.jpg)
@@ -72,7 +72,7 @@ The DevKit contains following components:
 - Assorted cables, propellers, and other accessories (these can be used to attach additional peripherals).
 
 
-## What Else Do You Need?
+## What Else Do You Need
 
 The kit contains all the essential drone hardware except a battery and a radio control system, which must be purchased separately:
 - Battery:
@@ -324,7 +324,7 @@ The Carrier board pinouts can be download from [Holybro's website.](http://www.h
 - [Path Planning Interface](../computer_vision/path_planning_interface.md)
 - [Px4 Vision Carrier Board Pinouts](http://www.holybro.com/manual/PX4_Vision_carrier_board_pinouts_v1.1.pdf)
 
-## How to get Technical Support?
+## How to get Technical Support
 
 For hardware issues, please contact Holybro at: [productservice@holybro.com](mailto:productservice@holybro.com).
 
