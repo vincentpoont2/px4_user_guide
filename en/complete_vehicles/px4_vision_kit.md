@@ -47,7 +47,7 @@ The guide explains the minimal additional setup required to get the vehicle read
 The PX4 Vision DevKit contains following components:
 - Core Components:
   - 1x Pixhawk 4 flight controller (with custom PX4 firmware)
-  - 1x pmw3901 optical flow sensor
+  - 1x PMW3901 optical flow sensor
   - 1x TOF Infrared distance sensor (PSK‐CM8JL65‐CC5)
   - 1x Structure Core depth camera
   - 1x *UP Core* computer (4GB memory & 64GB eMMC with Ubuntu and PX4 avoidance)
@@ -62,7 +62,8 @@ The PX4 Vision DevKit contains following components:
     - WiFi (attached to external antenna #1).
       Allows computer to access home WiFi network for Internet access/updates.
 
-- Mechanical Specification
+
+- Mechanical Specification:
   - Frame: Full 5mm 3k carbon fiber twill
   - Motors: T-MOTOR F60 PROⅢ KV1750
   - ESC: BEHEli-S 20A ESC
@@ -73,12 +74,14 @@ The PX4 Vision DevKit contains following components:
   - Weight: 854 grams without battery or props
   - Telemetry: ESP8266 connected to flight controller (attached to external antenna #2). Enables wireless connection to the ground station.
 
+
 - A USB2.0 stick with pre-flashed software provided by Auterion that bundles:
   - Ubuntu 18.04 LTS
   - ROS Melodic
   - Occipital Structure Core ROS driver
   - MAVROS
   - [PX4 Avoidance](https://github.com/PX4/avoidance#obstacle-detection-and-avoidance)
+
 
 - Assorted cables, 8x propellers, 2x battery straps (installed) and other accessories (these can be used to attach additional peripherals).
 
