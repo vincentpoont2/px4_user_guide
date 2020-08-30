@@ -19,7 +19,7 @@ The following RTK-compatible devices have been tested.
 * [Femtones MINI2 Receiver](../gps_compass/rtk_gps_fem_mini2.md)  
 * [Freefly RTK GPS](../gps_compass/rtk_gps_freefly.md) (F9P)
 * [Here+ RTK GPS](../gps_compass/rtk_gps_hex_hereplus.md)
-* [Holybro H-RTK f9p GNSS](../gps_compass/rtk_gps_holybro_h-rtk-f9p.md)
+* [Holybro H-RTK F9P GNSS](../gps_compass/rtk_gps_holybro_h-rtk-f9p.md)
 * [Holybro H-RTK M8P GNSS](../gps_compass/rtk_gps_holybro_h-rtk-m8p.md)
 * [SparkFun GPS-RTK2 Board - ZED-F9P](https://www.sparkfun.com/products/15136) (www.sparkfun.com)
 * [SIRIUS RTK GNSS ROVER (F9P)](https://store-drotek.com/911-1010-sirius-rtk-gnss-rover-f9p.html#/158-sensor-no_magnetometer) (store-drotek.com)
