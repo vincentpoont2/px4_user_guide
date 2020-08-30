@@ -16,14 +16,14 @@ The guide explains the minimal additional setup required to get the vehicle read
 
 ## Px4 Vision Guide Content
 - [Warnings & Notifications](#Warnings-and-Notifications)
-- [What's Inside](#What's-inside)
-- [What Else Do You Need](#What-Else-Do-You-Need)
-- [First-time Setup](#First-time-Setup)
-- [Fly the Drone with avoidance](#Fly-the-Drone-with-Avoidance)
-- [Development using the Kit](#Development-using-the-Kit)
-- [Px4 Vision Carrier Board Pinouts](#Px4-Vision-Carrier-Board-Pinouts)
-- [Other Development Resources](#Other-Development-Resources)
-- [How to get Technical Support](#How-to-get-Technical-Support)
+- [What's Inside](#What-is-inside)
+- [What Else Do You Need](#what-else-do-you-need)
+- [First-time Setup](#first-time-setup)
+- [Fly the Drone with avoidance](#fly-the-drone-with-avoidance)
+- [Development using the Kit](#development-using-the-kit)
+- [Px4 Vision Carrier Board Pinouts](#px4-vision-carrier-board-pinouts)
+- [Other Development Resources](#other-development-resources)
+- [How to get Technical Support](#how-to-get-technical-support)
 
 ## Warnings and Notifications
 
@@ -37,18 +37,18 @@ The guide explains the minimal additional setup required to get the vehicle read
 
    ![Warning - do not connect power port](../../assets/hardware/px4_vision_devkit/warning_power_port.png)
 
-## What's Inside
+## What is Inside
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside_top.jpg)
 
 ![Whats inside](../../assets/hardware/px4_vision_devkit/px4_vision_whats_inside.jpg)
 
 ![Schematic Layered](../../assets/hardware/px4_vision_devkit/Explode-view.png)
 
-The DevKit contains following components:
-- PX4 Vision drone kit with these internal parts:
+The PX4 Vision DevKit contains following components:
+- Core Components:
   - 1x Pixhawk 4 flight controller (with custom PX4 firmware)
   - 1x pmw3901 optical flow sensor
-  - 1x distance sensor
+  - 1x TOF Infrared distance sensor (PSK‐CM8JL65‐CC5)
   - 1x Structure Core depth camera
   - 1x *UP Core* computer (4GB memory & 64GB eMMC with Ubuntu and PX4 avoidance)
     - Atom CPU
@@ -61,16 +61,26 @@ The DevKit contains following components:
     - SD card slot
     - WiFi (attached to external antenna #1).
       Allows computer to access home WiFi network for Internet access/updates.
-  - ESP8266 connected to flight controller (attached to external antenna #2).
-    Enables wireless connection to the ground station.
-- A USB2.0 stick with pre-flashed software that bundles:
+
+- Mechanical Specification
+  - Frame: Full 5mm 3k carbon fiber twill
+  - Motors: T-MOTOR F60 PROⅢ KV1750
+  - ESC: BEHEli-S 20A ESC
+  - Propellers: T6045
+  - GPS: Pixhawk4 GPS module
+  - Power module: Holybro PM07
+  - Wheelbase: 286mm
+  - Weight: 854 grams without battery or props
+  - Telemetry: ESP8266 connected to flight controller (attached to external antenna #2). Enables wireless connection to the ground station.
+
+- A USB2.0 stick with pre-flashed software provided by Auterion that bundles:
   - Ubuntu 18.04 LTS
   - ROS Melodic
   - Occipital Structure Core ROS driver
   - MAVROS
   - [PX4 Avoidance](https://github.com/PX4/avoidance#obstacle-detection-and-avoidance)
-- Assorted cables, propellers, and other accessories (these can be used to attach additional peripherals).
 
+- Assorted cables, 8x propellers, 2x battery straps (installed) and other accessories (these can be used to attach additional peripherals).
 
 ## What Else Do You Need
 
@@ -85,7 +95,6 @@ The kit contains all the essential drone hardware except a battery and a radio c
 
 In addition, users will need ground station hardware/software:
 - Laptop or tablet running [QGroundControl](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html) (QGC).
-
 
 ## First-time Setup
 
