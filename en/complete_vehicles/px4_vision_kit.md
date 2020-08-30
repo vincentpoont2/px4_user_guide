@@ -16,7 +16,7 @@ The guide explains the minimal additional setup required to get the vehicle read
 
 ## Px4 Vision Guide Content
 - [Warnings & Notifications](#Warnings-and-Notifications)
-- [What's Inside](#What-is-inside)
+- [What is Inside](#What-is-inside)
 - [What Else Do You Need](#what-else-do-you-need)
 - [First-time Setup](#first-time-setup)
 - [Fly the Drone with avoidance](#fly-the-drone-with-avoidance)
