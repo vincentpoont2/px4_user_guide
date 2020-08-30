@@ -6,7 +6,7 @@ The [*PX4 Vision Autonomy Development Kit*](http://www.holybro.com/product/px4-v
 
 The kit contains a near-ready-to-fly carbon-fiber quadcopter equipped with a *Pixhawk 4* flight controller, a *UP Core* companion computer (4GB memory & 64GB eMMC), and a Occipital *Structure Core* depth camera sensor.
 
-The vehicle comes with software for PX4 [Obstacle Avoidance](../computer_vision/obstacle_avoidance.md) and [Collision Prevention](../computer_vision/collision_prevention.md) enabled “out of the box”. Developers can use the kit to try out other features provided by the [PX4 Avoidance](https://github.com/PX4/avoidance#obstacle-detection-and-avoidance) project, modify the existing code, or experiment with completely new computer vision-based functionality.
+This vehicle comes with no software preinstalled. There is a pre-imaged USB stick that has a reference implementation of the PX4/[Avoidance](../computer_vision/obstacle_avoidance.md) local planner software provided by Auterion. This is a basic software used only as a reference to show the basic function the PX4 vision can do. Developers can use the kit to try out other features provided by the [PX4 Avoidance](https://github.com/PX4/avoidance#obstacle-detection-and-avoidance) project, modify the existing code, or experiment with completely new computer vision-based functionality.
 
 The guide explains the minimal additional setup required to get the vehicle ready to fly (installing an RC system and battery). It also covers the first flight, and how to get started with modifying the computer vision code.
 
@@ -331,4 +331,4 @@ For hardware issues, please contact Holybro at: [productservice@holybro.com](mai
 For software issues, use the following [community support channels](README.md#support):
 - [PX4 discuss: Computer Vision category.](https://discuss.px4.io/c/Vision-based-navigation-and-obstacle-avoidance)
 - [PX4 slack](https://slack.px4.io/) channel: #avoidance
-- [Holybro Px4 Vision Wikifactory](https://wikifactory.com/+holybro/px4-vision)
+- [Holybro PX4 Vision Wikifactory](https://wikifactory.com/+holybro/px4-vision)
