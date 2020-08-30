@@ -32,6 +32,6 @@ All H-RTK GNSS models come with a GH 10-pin connector/cable that is compatible w
 
 ![h-rtk-f9p_spec](../../assets/hardware/gps/rtk_holybro_h-rtk-f9p_spec.png)
 
-## GPS Mounts
+## GPS Acessories
 
-![h-rtk](../../assets/hardware/gps/rtk_holybro_h-rtk_mount_all.png)
+![h-rtk](../../assets/hardware/gps/rtk_holybro_h-rtk_mount_3.png)
