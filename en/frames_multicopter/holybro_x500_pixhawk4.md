@@ -96,7 +96,7 @@ Unscrew the landing gear screws and insert the vertical pole, see figures 1 and 
 
 **Step 3:** Insert 4 nylon screws and nylon standoffs and attach the power module PM07 to the bottom plate using 4 nylon nuts as shown in Figures 4.
 
-![power_module](../../assets/airframes/multicopter/x500_holybro_pixhawk4/power_module.jpg)
+<img src="../../assets/airframes/multicopter/x500_holybro_pixhawk4/power_module.jpg" width="450">
 
 (Figure 4)
 
@@ -141,54 +141,41 @@ Push the arm tubes a bit into the frame and make sure the amount of protrusion (
 
 ![Arms 3](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_fig16.jpg)
 
-**Step 10:**
-Put the hanger gaskets into the 4 hangers (Figure 11) and mount them onto the bottom plate using 8 hex screws. The screw holes are noted by the white arrow in Figure 12. It is recommended to tilt the drone sideway to make the installation easier.
-
-<img src="../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_fig9.png" width="400">
-
 (Figure 11)
 
-![Battery Mount 4](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_fig10.jpg)
+**Step 10:**
+Put the hanger gaskets into the 4 hangers and mount them onto the bottom plate using 8 hex screws like the green arrow in Figure 12. Screw the landing gear onto the bottom plate with the screw holes shown with white arrow in Figure 12. It is recommended to tilt the drone sideway to make this installation process easier.
+
+<img src="../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_bottom.jpg" width="400">
 
 (Figure 12)
 
-**Step 11:**
-Insert the slide bars (Figure 13) to the hanger rings. Assemble the battery mount and platform board and mount them onto the slide bars as shown in Figure 14.
 
-![Battery Mount 2](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_fig8.png)
+**Step 11:**
+Insert the slide bars to the hanger rings. Assemble the battery mount and platform board and mount them onto the slide bars as shown in Figure 13.
+
+![Assembled Kit](../../assets/airframes/multicopter/x500_holybro_pixhawk4/battery_mount3.jpg)
 
 (Figure 13)
 
-<img src="../../assets/airframes/multicopter/x500_holybro_pixhawk4/battery_mount1.jpg" width="400">
-
-(Figure 14)
-
 **Step 12**
-Mount the landing gear onto the bottom plate. It is recommended to tilt the drone sideway to make this installation process easier.
-
-![Landing Gear](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_fig5.jpg)
-
-(Figure 15)
-
-**Step 13**
 Use the tape and stick the GPS to the top of the GPS mast and mount the GPS mast, make sure the arrow on the gps (Figure 16) is pointing forward.
 
 <img src="../../assets/airframes/multicopter/x500_holybro_pixhawk4/gps2.jpg" width="400">
 
+(Figure 14)
 
-(Figure 16)
-
-**Step 14:** Mount the telemetry radio onto the top plate. Plug the telemetry cable into TELEM1 port and GPS module to GPS MODULE port on the flight controller. Plug the cable from PM07 FMU-PWM-in to FMU-PWM-out and PWR1 to POWER1 on the flight controller shown in Figure 17.
+**Step 13:** Use the double side tape and mount the telemetry radio onto the top plate. Plug the telemetry cable into TELEM1 port and GPS module to GPS MODULE port on the flight controller. Plug the cable from FMU-PWM-in (PM07) to FMU-PWM-out (Pixhawk4) and PWR1 (PM07) to POWER1 (Pixhawk4) as shown in Figure 15.
 
 ![Pixhawk 4 wiring 1](../../assets/airframes/multicopter/x500_holybro_pixhawk4/fc_connections.jpg)
 
-(Figure 17)
+(Figure 15)
 
-Please refer to [Pixhawk 4 Quick Start](../assembly/quick_start_pixhawk4.md) for more information
+You can also refer to [Pixhawk 4 Quick Start](../assembly/quick_start_pixhawk4.md) for more information
 
-![Assembled Kit](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500_assembled.png)
+![Assembled Kit](../../assets/airframes/multicopter/x500_holybro_pixhawk4/x500.jpg)
 
-(Fully assembled X500 Kit)
+Fully assembled X500 Kit
 
 <span id="configure"></span>
 ## Install/Configure PX4
